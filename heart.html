@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coração</title>
+    <style>
+        #heart{
+            height: 160px;
+            width: 100px;
+            background-color: #fd267d;
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            border-radius: 200px 200px 0 0;
+            transform: rotate(45deg);
+        }
+        #heart::before{
+            content: " ";
+            position: absolute;
+            height: 160px;
+            width: 100px;
+            background-color: #fd267d;
+            border-radius: 200px 200px 0 0;
+            transform: rotate(-90deg);
+            top: 20%;
+            left: -30%;
+        }
+        p{
+            color: white;
+            position: absolute;
+            top: 40%;
+            transform: rotate(-45deg);
+        }
+    </style>
+</head>
+<body>
+    <div id="heart">
+        <p>I love U</p>
+    </div>
+</body>
+</html>
