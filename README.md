@@ -1,3 +1,6 @@
-Modelo de coração em CSS <3
+# Coração CSS3
 
-https://psiconaut4.github.io/heart/
+Coração "I love U" escrito totalmente em CSS <br>
+Disponível em: https://psiconaut4.github.io/heart/
+
+
